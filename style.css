@@ -1,1 +1,16 @@
-
+body {
+    background-color:slategrey
+}
+.box {
+    background: linear-gradient(90deg, rgba(67,184,96,1) 0%, rgba(15,184,181,1) 21%, rgba(26,114,233,1) 47%, rgba(154,96,96,1) 83%, rgba(172,81,81,1) 93%);
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    margin: 10px;
+    font-size: 50px;
+    font-style: italic;
+    color:white;
+}
