@@ -1,16 +1,70 @@
 body {
-    background-color:slategrey
+    background-color:slategrey;
+    font-weight:bold;
 }
+
+header {
+    background-color:indigo;
+    color: gold;
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+    font-size:30px;
+    text-indent:50px;
+}
+
+aside {
+    padding: 3%;
+    height: 600px;
+    width:5%;
+    display:flex;
+    flex-direction: column;
+    border-right: 5px solid rgb(26, 200, 212);
+    position:absolute;
+}
+
+section {
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+div{
+    justify-content:space-evenly;
+}
+
+ul {
+    display:flex;
+    flex-direction: row;
+    padding:20px;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color:gold;
+    font-size:30px;
+}
+
 .box {
     background: linear-gradient(90deg, rgba(67,184,96,1) 0%, rgba(15,184,181,1) 21%, rgba(26,114,233,1) 47%, rgba(154,96,96,1) 83%, rgba(172,81,81,1) 93%);
-    width: 500px;
-    height: 100px;
+    width: 40%;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 3px solid black;
     margin: 10px;
-    font-size: 50px;
+    font-size:50px;
     font-style: italic;
-    color:white;
+}
+
+footer {
+    display:flex;
+    bottom:0px;
+    justify-content:space-evenly;
+    align-items:center;
 }
