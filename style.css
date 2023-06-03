@@ -13,24 +13,20 @@ header {
     text-indent:50px;
 }
 
-aside {
-    padding: 3%;
-    height: 600px;
-    width:5%;
-    display:flex;
-    flex-direction: column;
-    border-right: 5px solid rgb(26, 200, 212);
-    position:absolute;
-}
-
 section {
+    margin-top:20px;
     display:flex;
-    justify-content: flex-end;
     flex-direction: row;
 }
 
-div{
-    justify-content:space-evenly;
+aside {
+    font-size:30px;
+    padding: 0% 5% 0% 1%;
+    width:5%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    border-right: 5px solid rgb(26, 200, 212);
 }
 
 ul {
@@ -62,9 +58,12 @@ li a {
     font-style: italic;
 }
 
-footer {
+#contacts {
     display:flex;
     bottom:0px;
-    justify-content:space-evenly;
     align-items:center;
+}
+
+h2 {
+    padding:0% 8%;
 }
