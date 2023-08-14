@@ -4,7 +4,7 @@
 Custom portfolio for class projects.
 
 # Screenshot
-![Screenshot](./assets/images/Website.PNG)
+![Screenshot](Website.PNG)
 
 # Link
 [Webpage](https://turbocj.github.io/portfolio/)
