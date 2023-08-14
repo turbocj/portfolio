@@ -1,2 +1,15 @@
-# portfolio
-Challenge 2
+# Portfolio
+
+# Description
+Custom portfolio for class projects.
+
+# Screenshot
+![Screenshot](./assets/images/Website.PNG)
+
+# Link
+[Webpage](https://turbocj.github.io/portfolio/)
+
+[Github-repository](https://github.com/turbocj/portfolio)
+
+# Credit
+UC Berkley Bootcamp 2023
