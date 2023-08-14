@@ -68,10 +68,3 @@ li a {
 h2 {
     padding:0% 8%;
 }
-
-@media screen and (max-width: 768px) {
-    .card {
-      width: 50%;
-    }
-    /* Change the header color */
-  }
